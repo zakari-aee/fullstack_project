@@ -1,2 +1,39 @@
-node_modules/
-.env
+# --------------------
+# Laravel Backend
+# --------------------
+
+/backend/vendor/
+/backend/node_modules/
+/backend/.env
+/backend/storage/*.log
+/backend/storage/framework/cache/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+/backend/public/storage
+/backend/public/hot
+
+# Composer files
+
+/backend/composer.lock
+
+# --------------------
+# React Frontend
+# --------------------
+
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+/frontend/.env
+
+# Optional: lock file (track if you want exact versions)
+
+/frontend/package-lock.json
+
+# --------------------
+# General / OS / IDE
+# --------------------
+
+*.DS_Store
+*.vscode/
+*.idea/
+
